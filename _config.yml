@@ -1,3 +1,15 @@
-name: Your New Jekyll Site
+name: Prototypes and Demos
 markdown: redcarpet
 pygments: true
+menus:
+  personalSettingsPermAdmin:
+    - title: Group Notification Settings
+    - title: View Previous Orders
+    - title: View Previous Orders
+    - title: Notices
+    - title: Leave Group
+  socialMenuPermAdmin:
+    - title: Post an Announcement
+    - title: Share Photos
+    - title: Invite Members
+    - title: Message Members
