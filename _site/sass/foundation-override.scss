@@ -1,0 +1,18 @@
+@import "foundation";
+
+.label.round {
+	&.hover {background-color: darken($primary-color, 40%);}
+	a {color: white;}
+}
+
+ul.social-share {list-style-type: none;
+	li {display: inline; @include grid-column(4);
+		i {
+			font-size: $em-base * 2;
+		}
+	}
+}
+.section-auto-accordion {
+  @include section-container($section-type:accordion);
+  & > section { @include section($section-type:accordion, $title-selector:".title", $content-selector:".content"); }
+}
